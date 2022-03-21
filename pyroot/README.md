@@ -16,5 +16,5 @@ conda activate e290
 # Example
 To create a "jet image":
 ```
-python jetimages.py ${CFS}/atlas/kkrizka/E290/samples/v0.0.1/ttbar/run_02_*/tag_1_delphes_events.root
+python jetimage.py ${CFS}/atlas/kkrizka/E290/samples/v0.0.1/ttbar/run_02_*/tag_1_delphes_events.root
 ```
