@@ -199,7 +199,7 @@ N_early_stopping_epochs = 10
 N_epochs = 200
 batch_size = 500
 verbose = False
-model_name = 'simple5'
+model_name = 'simple'
 title_desc = '{} model | S/B = {} | Kfold #{}'
 plot_desc = 'plots/train_test_verifications/{}-model_{}-sbr_kfold-{}.pdf'
 
