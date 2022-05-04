@@ -1,3 +1,4 @@
+from threading import ThreadError
 import ROOT
 print('got root')
 import sys
@@ -23,7 +24,7 @@ for inpath in inputs:
 
 # Loop the loop
 h=ROOT.TH2F('himage','',50,-1,1,50,-1,1)
-for e in t:
+for e in tree:
     for fj in e.FatJet:
         # Simple selection
         if fj.PT<500: continue

@@ -1,0 +1,10 @@
+python convert.py -i "../../E290/samples/v0.0.1/ttbar/run_02_[0-9]/tag_1_delphes_events.root" -o pt500/ttbar_out/files_00-09/ -p 500 > pt500/ttbar_out/files_00-09/log 2>&1 &
+python convert.py -i "../../E290/samples/v0.0.1/ttbar/run_02_1[0-9]/tag_1_delphes_events.root" -o pt500/ttbar_out/files_10-19/ -p 500 > pt500/ttbar_out/files_10-19/log 2>&1 &
+python convert.py -i "../../E290/samples/v0.0.1/ttbar/run_02_2[0-9]/tag_1_delphes_events.root" -o pt500/ttbar_out/files_20-29/ -p 500 > pt500/ttbar_out/files_20-29/log 2>&1 &
+python convert.py -i "../../E290/samples/v0.0.1/ttbar/run_02_3[0-9]/tag_1_delphes_events.root" -o pt500/ttbar_out/files_30-39/ -p 500 > pt500/ttbar_out/files_30-39/log 2>&1 &
+python convert.py -i "../../E290/samples/v0.0.1/ttbar/run_02_4[0-9]/tag_1_delphes_events.root" -o pt500/ttbar_out/files_40-49/ -p 500 > pt500/ttbar_out/files_40-49/log 2>&1 &
+python convert.py -i "../../E290/samples/v0.0.1/ttbar/run_02_5[0-9]/tag_1_delphes_events.root" -o pt500/ttbar_out/files_50-59/ -p 500 > pt500/ttbar_out/files_50-59/log 2>&1 &
+python convert.py -i "../../E290/samples/v0.0.1/ttbar/run_02_6[0-9]/tag_1_delphes_events.root" -o pt500/ttbar_out/files_60-69/ -p 500 > pt500/ttbar_out/files_60-69/log 2>&1 &
+python convert.py -i "../../E290/samples/v0.0.1/ttbar/run_02_7[0-9]/tag_1_delphes_events.root" -o pt500/ttbar_out/files_70-79/ -p 500 > pt500/ttbar_out/files_70-79/log 2>&1 &
+python convert.py -i "../../E290/samples/v0.0.1/ttbar/run_02_8[0-9]/tag_1_delphes_events.root" -o pt500/ttbar_out/files_80-89/ -p 500 > pt500/ttbar_out/files_80-89/log 2>&1 &
+python convert.py -i "../../E290/samples/v0.0.1/ttbar/run_02_9[0-9]/tag_1_delphes_events.root" -o pt500/ttbar_out/files_90-99/ -p 500 > pt500/ttbar_out/files_90-99/log 2>&1 &

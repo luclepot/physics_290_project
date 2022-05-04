@@ -123,7 +123,7 @@ jet_feature_names = [
     'Eta',
     'Phi',
     'Charge',
-    'ChargedEnergyFraction',
+#    'ChargedEnergyFraction',
     'EhadOverEem',
     'PT',
     'Mass',
@@ -131,7 +131,7 @@ jet_feature_names = [
     'NNeutrals',
     'NSubJetsPruned',
     'NSubJetsSoftDropped',
-    'NeutralEnergyFraction',
+#    'NeutralEnergyFraction',
     'PTD',
 ]
 jet_OTHERfeature_names = [
@@ -190,7 +190,7 @@ with h5py.File(data_path, 'w') as f:
     dset_hlf = f.create_dataset('hlf', hlf_arr.shape, dtype=float)
     dset_hlf[:] = hlf_arr
 
-log("Saved {} events to path {}".format(i, data_path))
+log("Saved {} events to path {}, out of {} trawled events".format(hlf_arr.shape[0], i, data_path))
 
             # const_arr[i,j,k] = [c.Eta, c.Phi, c.M, c.Pt]
 # class Converter:
