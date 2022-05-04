@@ -1,2 +1,4 @@
 *.tar.gz
+*.tar
 *.root
+conversion/pt?00/
