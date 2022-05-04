@@ -1,4 +1,7 @@
 *.tar.gz
 *.tar
+*.pkl
 *.root
-conversion/pt?00/
+.ipynb_checkpoints/
+data/
+conversion/pt?00*/
